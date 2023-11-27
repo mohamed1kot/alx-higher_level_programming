@@ -10,21 +10,21 @@
 
 int check_cycle(listint_t *list)
 {
-	listint_t *turtle, *hare;
+	listint_t *pev, *H;
 
 	if (list == NULL || list->next == NULL)
 		return (0);
 
-	turtle = list->next;
-	hare = list->next->next;
+	pev = list->next;
+	H = list->next->next;
 
-	while (turtle && hare && hare->next)
+	while (pev && H && H->next)
 	{
-		if (turtle == hare)
+		if (pev == H)
 			return (1);
 
-		turtle = turtle->next;
-		hare = hare->next->next;
+		pev = pev->next;
+		H = H->next->next;
 	}
 	return (0);
 }

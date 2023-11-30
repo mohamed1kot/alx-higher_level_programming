@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from calculator_1 import *
+from calculator_1 import sub, add, mul, div
 import sys
 
 if __name__ == "__main__":
@@ -7,7 +7,6 @@ if __name__ == "__main__":
     if argc != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
-
     if sys.argv[2] == '+':
         print(f"{sys.argv[1]} + {sys.argv[3]} = {add(int(sys.argv[1]), int(sys.argv[3]))}")
     elif sys.argv[2] == '-':

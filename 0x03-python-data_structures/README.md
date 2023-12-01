@@ -1,4 +1,4 @@
-![Animated Cat GIF](/home/mohamed/Desktop/7e7834b535261d05532fb80a9304f7051c4ad7ac.gif)
+![Animated Cat GIF](https://rb.gy/p8fyow)
 # Resources
 
 - [3.1.3. Lists](https://intranet.alxswe.com/rltoken/VarQbHxfmbnpGnaGp3Nb_A)

@@ -1,4 +1,3 @@
-![Animated Cat GIF](https://rb.gy/p8fyow)
 # Resources
 
 - [3.1.3. Lists](https://intranet.alxswe.com/rltoken/VarQbHxfmbnpGnaGp3Nb_A)

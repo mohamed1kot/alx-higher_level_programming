@@ -14,8 +14,7 @@ int palindrome(listint_t **top, listint_t *next)
 	int result = 0;
 
 	if (next == NULL)
-		return 1;
-	
+		return (1);
 	if (palindrome(top, next->next) && ((*top)->n == next->n))
 		result = 1;
 
@@ -33,6 +32,6 @@ int palindrome(listint_t **top, listint_t *next)
 
 int is_palindrome(listint_t **head)
 {
-	return palindrome(head, *head);
+	return (palindrome(head, *head));
 }
 

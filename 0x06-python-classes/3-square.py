@@ -25,3 +25,11 @@ class Square:
         else:
             pass
 
+    def area(self):
+        """
+         that returns the current square area.
+
+         args:
+            size: Private instance attribute.
+        """
+        return self.__size ** 2

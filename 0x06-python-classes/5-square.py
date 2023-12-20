@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import sys
 """a class Square that defines a square by: (based on 4-square.py)"""
 
 
@@ -60,5 +59,5 @@ class Square:
         else:
             for i in range(self.__size):
                 for j in range(self.__size):
-                    print("#", file=sys.stdout, end="")
+                    print("#", end="")
                 print("")

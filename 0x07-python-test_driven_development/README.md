@@ -370,13 +370,13 @@ guillaume@ubuntu:~/0x07$
 ### 8. CPython #3: Python Strings
 ![image](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/2c4f2b92514745519f833afdf5bc5f3eaff8c6ca.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240102T153317Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=58510706aa081828972cc4e0d77e684ef159c61a0e328c0b657ba3555996018d)
 
-Create a function that prints Python strings.
+- Create a function that prints Python strings.
 
 	- Prototype: void print_python_string(PyObject *p);
 	- Format: see example
 	- If p is not a valid string, print an error message (see example)
 	- Read: Unicode HOWTO
-About:
+- About:
 
 	- Python version: 3.4
 	- You are allowed to use the C standard library

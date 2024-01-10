@@ -13,7 +13,7 @@ class Square(Rectangle):
         size must be private. No getter or setter.
         size must be a positive integer, validated by integer_validator.
         """
-        if self.integer_validator("size", size) == None:
+        if self.integer_validator("size", size) is None:
             self.__size = size
         super().__init__(size, size)
 

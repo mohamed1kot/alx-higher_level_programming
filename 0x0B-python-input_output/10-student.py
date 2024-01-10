@@ -32,12 +32,14 @@ class Student:
         Return:
              a dictionary representation of a Student.
         """
-        if attrs:
-            new = {}
-            for item in attrs:
-                try:
-                    new[item] = self.__dict__[item]
-                except Exception:
-                    pass
+        try:
+            if attrs:
+                new = {}
+                for item in attrs:
+                    try:
+                        new[item] = self.__dict__[item]
+                    except Exception:
+                        pass
             return (new)
-        return (self.__dict__)
+        except UnboundLocalError:
+            return (self.__dict__)

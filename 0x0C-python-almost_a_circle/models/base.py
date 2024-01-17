@@ -11,6 +11,7 @@ class Base:
         __nb_objects : private class attribute.
     """
     __nb_objects = 0
+
     def __init__(slef, id=None):
         """
         class constructor initiate the new class

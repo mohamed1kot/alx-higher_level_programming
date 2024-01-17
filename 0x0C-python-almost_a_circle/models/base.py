@@ -12,14 +12,14 @@ class Base:
     """
     __nb_objects = 0
 
-    def __init__(slef, id=None):
+    def __init__(self, id=None):
         """
         class constructor initiate the new class
         Args:
             id : public instance attribute.
         """
         if id is not None:
-            slef.id = id
+            self.id = id
         else:
-            self.__nb_objects += 1
-            self.id = Base.__nb_objectsd
+            Base.__nb_objects += 1
+            self.id = Base.__nb_objects
